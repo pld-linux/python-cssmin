@@ -2,7 +2,7 @@
 Summary:	A Python port of the YUI CSS compression algorithm
 Name:		python-%{module}
 Version:	0.1.4
-Release:	1
+Release:	2
 # same as yui?
 License:	BSD
 Group:		Libraries/Python
