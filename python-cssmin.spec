@@ -1,13 +1,13 @@
 %define		module	cssmin
 Summary:	A Python port of the YUI CSS compression algorithm
 Name:		python-%{module}
-Version:	0.1.4
-Release:	2
+Version:	0.2.0
+Release:	1
 # same as yui?
 License:	BSD
 Group:		Libraries/Python
 Source0:	http://pypi.python.org/packages/source/c/cssmin/cssmin-%{version}.tar.gz
-# Source0-md5:	b9149b8a58e70cac5f7972b0dcce776f
+# Source0-md5:	c2798658a4f69663365a3e70c3b8250b
 URL:		https://pypi.python.org/pypi/cssmin/
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
@@ -27,7 +27,6 @@ A Python port of the YUI CSS compression algorithm.
 %install
 rm -rf $RPM_BUILD_ROOT
 %py_install
-
 %py_postclean
 
 %clean
